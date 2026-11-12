@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="milanSkyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE8D6" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#FFD7BA" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFF1E6" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="duomoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FDF0D5"/>
+      <stop offset="100%" stop-color="#F5DFBB"/>
+    </linearGradient>
+    <linearGradient id="tramYellow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3B0"/>
+      <stop offset="40%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#F4A261"/>
+    </linearGradient>
+    <linearGradient id="terracotta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E76F51"/>
+      <stop offset="100%" stop-color="#F4A261"/>
+    </linearGradient>
+    <filter id="milanShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#B08968" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <!-- Sky Circle Backdrop -->
+  <circle cx="300" cy="250" r="215" fill="url(#milanSkyGrad)"/>
+  <circle cx="300" cy="250" r="205" fill="none" stroke="#E29578" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+
+  <!-- Warm Sun and Pastel Clouds -->
+  <circle cx="430" cy="140" r="42" fill="#FFE5A3" opacity="0.8" />
+  <g fill="#FFFFFF" opacity="0.85">
+    <path d="M 110 130 Q 125 110 145 115 Q 165 105 185 120 Q 200 120 205 135 L 110 135 Z" />
+    <path d="M 370 100 Q 385 85 405 90 Q 420 80 435 95 Q 450 95 455 108 L 370 108 Z" />
+  </g>
+
+  <!-- Flying Birds / Italian Swallows -->
+  <g stroke="#9C6644" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M 170 95 Q 178 88 185 95 Q 192 88 200 95" />
+    <path d="M 210 80 Q 216 75 222 80 Q 228 75 234 80" />
+  </g>
+
+  <!-- DUOMO DI MILANO (Iconic Gothic Cathedral Silhouette in soft warm marble tones) -->
+  <g filter="url(#milanShadow)">
+    <!-- Base facade -->
+    <path d="M 170 380 L 170 240 L 210 240 L 210 190 L 250 190 L 250 150 L 300 90 L 350 150 L 350 190 L 390 190 L 390 240 L 430 240 L 430 380 Z" 
+          fill="url(#duomoGrad)" stroke="#D4A373" stroke-width="2.5" />
+
+    <!-- Main central spire & Madonnina gold statue -->
+    <line x1="300" y1="90" x2="300" y2="55" stroke="#D4A373" stroke-width="3" />
+    <!-- Golden Madonnina -->
+    <circle cx="300" cy="50" r="5" fill="#FFB703" stroke="#FB8500" stroke-width="1.5" />
+    <polygon points="300,40 302,46 308,46 303,50 305,56 300,52 295,56 297,50 292,46 298,46" fill="#FFD166" />
+
+    <!-- Secondary spires -->
+    <line x1="250" y1="150" x2="250" y2="120" stroke="#D4A373" stroke-width="2.5" />
+    <polygon points="250,115 247,122 253,122" fill="#E29578" />
+
+    <line x1="350" y1="150" x2="350" y2="120" stroke="#D4A373" stroke-width="2.5" />
+    <polygon points="350,115 347,122 353,122" fill="#E29578" />
+
+    <line x1="210" y1="190" x2="210" y2="160" stroke="#D4A373" stroke-width="2" />
+    <polygon points="210,156 207,162 213,162" fill="#E29578" />
+
+    <line x1="390" y1="190" x2="390" y2="160" stroke="#D4A373" stroke-width="2" />
+    <polygon points="390,156 387,162 393,162" fill="#E29578" />
+
+    <line x1="170" y1="240" x2="170" y2="215" stroke="#D4A373" stroke-width="2" />
+    <line x1="430" y1="240" x2="430" y2="215" stroke="#D4A373" stroke-width="2" />
+
+    <!-- Gothic Rose Window (Center) -->
+    <circle cx="300" cy="180" r="24" fill="#FFE5D9" stroke="#B08968" stroke-width="2.5" />
+    <circle cx="300" cy="180" r="14" fill="#FFFFFF" stroke="#B08968" stroke-width="1.5" />
+    <circle cx="300" cy="180" r="4" fill="#D4A373" />
+    <!-- Rose window petals -->
+    <path d="M 300 158 L 300 202 M 278 180 L 322 180 M 284 164 L 316 196 M 284 196 L 316 164" stroke="#D4A373" stroke-width="1.5" />
+
+    <!-- Gothic Pointed Arches / Portals -->
+    <!-- Main Center Portal -->
+    <path d="M 282 380 L 282 300 Q 300 270 318 300 L 318 380 Z" fill="#E29578" stroke="#9C6644" stroke-width="2" />
+    <!-- Left Portal -->
+    <path d="M 225 380 L 225 320 Q 240 295 255 320 L 255 380 Z" fill="#E29578" opacity="0.85" stroke="#9C6644" stroke-width="1.8" />
+    <!-- Right Portal -->
+    <path d="M 345 380 L 345 320 Q 360 295 375 320 L 375 380 Z" fill="#E29578" opacity="0.85" stroke="#9C6644" stroke-width="1.8" />
+
+    <!-- Decorative facade detailing lines -->
+    <line x1="170" y1="310" x2="430" y2="310" stroke="#E6CCB2" stroke-width="2" />
+    <line x1="210" y1="240" x2="390" y2="240" stroke="#E6CCB2" stroke-width="2" />
+  </g>
+
+  <!-- Pavement / Cobblestone Road Ground -->
+  <path d="M 60 410 C 180 395 420 395 540 410 L 540 460 L 60 460 Z" fill="#DDBEA9" />
+  <path d="M 60 420 Q 300 405 540 420" stroke="#CB997E" stroke-width="3" stroke-dasharray="12 8" />
+
+  <!-- ICONIC MILAN YELLOW TRAM ("Carelli" #28) -->
+  <g transform="translate(70, 310)" filter="url(#milanShadow)">
+    <!-- Tram Roof & Trolley Pole -->
+    <path d="M 30 20 Q 115 12 200 20 L 195 28 L 35 28 Z" fill="#FFFFFF" stroke="#9C6644" stroke-width="2" />
+    <!-- Trolley pole (pantograph) -->
+    <line x1="115" y1="12" x2="90" y2="-15" stroke="#6C757D" stroke-width="2.5" />
+    <line x1="90" y1="-15" x2="135" y2="-18" stroke="#6C757D" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Tram Body (Upper cream, lower vibrant yellow) -->
+    <rect x="35" y="28" width="160" height="24" rx="2" fill="#FFFBEB" stroke="#9C6644" stroke-width="2" />
+    <rect x="35" y="52" width="160" height="42" rx="4" fill="url(#tramYellow)" stroke="#9C6644" stroke-width="2" />
+    
+    <!-- Dark belt line -->
+    <line x1="35" y1="52" x2="195" y2="52" stroke="#7F4F24" stroke-width="3" />
+
+    <!-- Tram Windows -->
+    <rect x="42" y="32" width="22" height="17" rx="3" fill="#D8F3DC" stroke="#7F4F24" stroke-width="1.5" />
+    <rect x="70" y="32" width="24" height="17" rx="3" fill="#D8F3DC" stroke="#7F4F24" stroke-width="1.5" />
+    <rect x="100" y="32" width="24" height="17" rx="3" fill="#D8F3DC" stroke="#7F4F24" stroke-width="1.5" />
+    <rect x="130" y="32" width="24" height="17" rx="3" fill="#D8F3DC" stroke="#7F4F24" stroke-width="1.5" />
+    <rect x="160" y="32" width="26" height="17" rx="3" fill="#D8F3DC" stroke="#7F4F24" stroke-width="1.5" />
+
+    <!-- Cute Tram Number & Route -->
+    <circle cx="178" cy="65" r="7" fill="#FFFFFF" stroke="#7F4F24" stroke-width="1" />
+    <text x="178" y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="bold" fill="#7F4F24" text-anchor="middle">1</text>
+    <rect x="50" y="62" width="55" height="10" rx="2" fill="#7F4F24" />
+    <text x="77" y="69.5" font-family="'Plus Jakarta Sans', sans-serif" font-size="6" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MILANO</text>
+
+    <!-- Headlight -->
+    <circle cx="192" cy="72" r="5" fill="#FFE5A3" stroke="#7F4F24" stroke-width="1.5" />
+    <circle cx="192" cy="72" r="2.5" fill="#FFFFFF" />
+
+    <!-- Wheels & Track Underbody -->
+    <rect x="45" y="94" width="140" height="6" fill="#4A4E69" rx="2" />
+    <circle cx="68" cy="100" r="8" fill="#343A40" stroke="#6C757D" stroke-width="2" />
+    <circle cx="160" cy="100" r="8" fill="#343A40" stroke="#6C757D" stroke-width="2" />
+    <circle cx="68" cy="100" r="3" fill="#ADB5BD" />
+    <circle cx="160" cy="100" r="3" fill="#ADB5BD" />
+  </g>
+
+  <!-- Cute Italian Cafe Scene on the right (Table, Chair, Espresso & Tulip in vase!) -->
+  <g transform="translate(420, 310)" filter="url(#milanShadow)">
+    <!-- Bistro Umbrella / Tenda Striped Cafe -->
+    <path d="M 60 5 C 20 20 20 35 20 35 L 100 35 C 100 35 100 20 60 5 Z" fill="#E76F51" />
+    <path d="M 40 15 C 30 25 30 35 30 35 L 50 35 C 50 25 50 18 40 15 Z" fill="#FFE8D6" />
+    <path d="M 80 15 C 70 25 70 35 70 35 L 90 35 C 90 25 90 18 80 15 Z" fill="#FFE8D6" />
+    <line x1="60" y1="5" x2="60" y2="105" stroke="#7F4F24" stroke-width="3" />
+
+    <!-- Round Bistro Table -->
+    <ellipse cx="60" cy="75" rx="28" ry="7" fill="#F8F9FA" stroke="#9C6644" stroke-width="2" />
+    <path d="M 60 82 L 60 108 M 46 108 L 74 108" stroke="#7F4F24" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Cute Espresso Cup with Steaming Heart -->
+    <rect x="48" y="65" width="10" height="8" rx="2" fill="#FFFFFF" stroke="#9C6644" stroke-width="1.2" />
+    <path d="M 58 68 C 61 68 61 71 58 72" fill="none" stroke="#9C6644" stroke-width="1.2" />
+    <!-- Steam -->
+    <path d="M 53 62 Q 55 58 52 54" fill="none" stroke="#FFB703" stroke-width="1.5" stroke-linecap="round" opacity="0.8" />
+
+    <!-- Little vase with a Pink Tulip on table -->
+    <path d="M 68 70 L 69 75 L 75 75 L 76 70 Z" fill="#A8DADC" stroke="#457B9D" stroke-width="1" />
+    <path d="M 72 70 L 72 61" stroke="#52B788" stroke-width="1.5" />
+    <path d="M 72 61 C 67 61 66 54 72 50 C 78 54 77 61 72 61 Z" fill="#FF758F" />
+
+    <!-- Bistro Chair -->
+    <path d="M 22 70 L 22 108 M 16 108 L 28 108" stroke="#7F4F24" stroke-width="2" stroke-linecap="round" />
+    <ellipse cx="22" cy="78" rx="10" ry="4" fill="#E6CCB2" stroke="#7F4F24" stroke-width="1.5" />
+    <path d="M 14 78 Q 12 55 22 55 Q 32 55 30 78" fill="none" stroke="#7F4F24" stroke-width="2" />
+  </g>
+
+  <!-- Sweet Sparkles and Floating Rose Petals -->
+  <g fill="#FFB703" opacity="0.8">
+    <path d="M 120 220 Q 120 230 110 230 Q 120 230 120 240 Q 120 230 130 230 Q 120 230 120 220 Z" />
+    <path d="M 480 180 Q 480 190 470 190 Q 480 190 480 200 Q 480 190 490 190 Q 480 190 480 180 Z" />
+  </g>
+  <g fill="#FFAAA6" opacity="0.75">
+    <path d="M 280 430 C 275 423 270 433 277 440 C 285 447 292 437 280 430 Z" />
+    <path d="M 370 425 C 365 418 360 428 367 435 C 375 442 382 432 370 425 Z" />
+  </g>
+</svg>

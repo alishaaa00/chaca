@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderelle — Profil & Data Diri Caca</title>
+  <meta name="description" content="Profil lengkap Caca, siswi Teknik Komputer dan Jaringan di SMK Telkom Malang yang menyukai dunia literasi novel, teknologi, dan arsitektur Milan.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/tulip-icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Falling Petals Background -->
+  <div id="petals-container"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar-wrap">
+    <nav class="navbar container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-icon-box">🌷</span>
+        <span>Wanderelle</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link"><span class="nav-icon">🏠</span> Beranda</a></li>
+        <li><a href="profil.html" class="nav-link active"><span class="nav-icon">🌸</span> Profil</a></li>
+        <li><a href="kontak.html" class="nav-link"><span class="nav-icon">💌</span> Kontak</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="petal-toggle-btn" class="btn-icon-pill" title="Toggle efek kelopak bunga">
+          <span>🌷</span> Kelopak: Aktif
+        </button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Buka Menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-drawer" class="mobile-drawer">
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <span class="brand-icon-box">🌷</span>
+          <span>Wanderelle</span>
+        </div>
+        <button id="drawer-close" class="drawer-close" aria-label="Tutup Menu">✕</button>
+      </div>
+      <ul class="drawer-links">
+        <li><a href="index.html" class="drawer-link">🏠 Beranda</a></li>
+        <li><a href="profil.html" class="drawer-link active">🌸 Profil & Data Diri</a></li>
+        <li><a href="kontak.html" class="drawer-link">💌 Hubungi Kontak</a></li>
+      </ul>
+      <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #FFE3E8; text-align: center;">
+        <span class="badge-cute">Instagram: @shazchiv</span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- PROFILE HEADER BANNER -->
+    <section class="profile-hero">
+      <div class="container">
+        
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <span class="badge-cute">Tentang Saya</span>
+          <h1 class="section-title">Profil & Data Diri <span class="text-gradient">Caca</span></h1>
+          <p class="section-subtitle">
+            Siswi SMK Telkom Malang jurusan TKJ dengan ketertarikan pada bidang teknologi informasi, literatur novel, dan estetika klasik.
+          </p>
+        </div>
+
+        <!-- MAIN PROFILE CARD -->
+        <article class="profile-card-main">
+          <!-- Left Column: Portrait & Quick Badges -->
+          <div class="profile-sidebar">
+            <div class="profile-avatar-wrapper">
+              <img src="assets/images/caca-flowers.jpg" alt="Foto Caca Membawa Buket Bunga Cantik">
+              <span class="profile-avatar-badge">🌸 Siswi TKJ</span>
+            </div>
+            
+            <h2 class="profile-name">Caca</h2>
+            <div class="profile-handle">
+              <span>Instagram:</span>
+              <a href="https://instagram.com/shazchiv" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">@shazchiv</a>
+            </div>
+
+            <div class="profile-school-pill">
+              🏫 SMK TELKOM MALANG
+            </div>
+
+            <p style="font-size: 0.9rem; color: var(--text-secondary); max-width: 260px; line-height: 1.6;">
+              <em>"Belajar dengan tekun, menikmati proses bertumbuh, dan menemukan wawasan baru di setiap halaman kehidupan."</em>
+            </p>
+          </div>
+
+          <!-- Right Column: Bio & Core Info Grid -->
+          <div class="profile-details-column">
+            <span class="badge-cute" style="margin-bottom: 0.75rem;">Data Diri</span>
+            <h3 style="font-size: 1.75rem; margin-bottom: 0.5rem;">Salam Kenal, Saya Caca 👋</h3>
+            
+            <p style="color: var(--text-secondary); line-height: 1.8; font-size: 1rem; margin-bottom: 1.5rem;">
+              Perkenalkan, nama saya <strong>Caca</strong>. Saat ini saya menempuh pendidikan kejuruan di <strong>SMK TELKOM MALANG</strong> pada kompetensi keahlian <strong>Teknik Komputer dan Jaringan (TKJ)</strong>. Di samping kegiatan akademis mengenai arsitektur jaringan dan infrastruktur IT, saya memiliki kegemaran membaca novel untuk melatih imajinasi, memperkaya sudut pandang, serta mengisi waktu luang secara produktif dan menenangkan.
+            </p>
+
+            <!-- 4 Grid Core Data -->
+            <div class="profile-info-grid">
+              <div class="info-box">
+                <div class="info-box-header">
+                  <span class="info-box-icon">🏫</span>
+                  <span class="info-box-title">Institusi Pendidikan</span>
+                </div>
+                <div class="info-box-value">SMK Telkom Malang</div>
+                <div class="info-box-sub">Sekolah Telkom Terkemuka (Moklet)</div>
+              </div>
+
+              <div class="info-box">
+                <div class="info-box-header">
+                  <span class="info-box-icon">💻</span>
+                  <span class="info-box-title">Program Keahlian</span>
+                </div>
+                <div class="info-box-value">Teknik Komputer & Jaringan</div>
+                <div class="info-box-sub">Fokus pada Networking & Infrastruktur IT</div>
+              </div>
+
+              <div class="info-box">
+                <div class="info-box-header">
+                  <span class="info-box-icon">📖</span>
+                  <span class="info-box-title">Aktivitas & Hobi</span>
+                </div>
+                <div class="info-box-value">Membaca Novel & Buku Fiksi</div>
+                <div class="info-box-sub">Menjelajahi beragam sudut pandang cerita</div>
+              </div>
+
+              <div class="info-box">
+                <div class="info-box-header">
+                  <span class="info-box-icon">✈️</span>
+                  <span class="info-box-title">Destinasi Impian</span>
+                </div>
+                <div class="info-box-value">Kota Milan, Italia 🇮🇹</div>
+                <div class="info-box-sub">Menikmati Duomo & trem legendaris</div>
+              </div>
+            </div>
+
+            <!-- School & Major Spotlight Card -->
+            <div class="school-major-banner">
+              <div class="school-logo-mock">🌐</div>
+              <div class="school-banner-content">
+                <h4>Perjalanan di Dunia TKJ SMK Telkom Malang</h4>
+                <p>
+                  Sebagai siswi TKJ di SMK Telkom Malang, Caca dibekali keterampilan mengenai arsitektur jaringan, pengkabelan, konfigurasi router & switch, pemahaman protokol TCP/IP, serta ketelitian tinggi dalam pemecahan masalah sistematis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- NOVEL READING CORNER / HOBI MEMBACA NOVEL -->
+        <section class="novel-reading-section">
+          <div class="section-header" style="margin-bottom: 2.5rem;">
+            <span class="badge-cute">Aktivitas Literasi</span>
+            <h2 class="section-title">Kegemaran Membaca: <span class="text-gradient">Refleksi Melalui Novel</span> 📚</h2>
+            <p class="section-subtitle">
+              Membaca memberikan ruang hening untuk berpikir, merenungkan berbagai sudut pandang, dan memperluas daya imajinasi.
+            </p>
+          </div>
+
+          <div class="novel-grid">
+            <!-- Left: Cozy Novel Illustration -->
+            <div class="novel-illustration-wrap">
+              <div style="max-width: 420px; margin: 0 auto; height: 300px;">
+                <img src="assets/images/reading-novel.svg" alt="Ilustrasi Buku Novel Terbuka dan Secangkir Kopi Hangat" style="width: 100%; height: 100%; object-fit: contain;">
+              </div>
+              <p class="handwritten" style="font-size: 1.45rem; margin-top: 1rem;">
+                "Reading is a quiet conversation with the author." 📖
+              </p>
+            </div>
+
+            <!-- Right: Interactive Quote Box & Reading Details -->
+            <div class="novel-card-interactive">
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <span class="badge-cute">Kutipan Pilihan</span>
+                <button id="btn-new-quote" class="btn-icon-pill">
+                  <span>🔄</span> Ganti Kutipan
+                </button>
+              </div>
+
+              <!-- Animated Quote Area -->
+              <div class="quote-bubble">
+                <p id="novel-quote-text" class="quote-text">
+                  “Sebuah buku adalah jendela yang menyajikan cara baru dalam memandang dunia di sekitar kita.”
+                </p>
+                <p id="novel-quote-author" class="quote-author">
+                  — Catatan Membaca
+                </p>
+              </div>
+
+              <div>
+                <h4 style="font-size: 1.05rem; margin-bottom: 0.6rem; color: var(--text-main);">
+                  Genre Novel Favorit:
+                </h4>
+                <div class="genre-tags">
+                  <span class="genre-tag">Romance & Slice of Life</span>
+                  <span class="genre-tag">Misteri & Detektif</span>
+                  <span class="genre-tag">Fantasi & Petualangan</span>
+                  <span class="genre-tag">Pengembangan Diri</span>
+                  <span class="genre-tag">Fiksi Klasik</span>
+                </div>
+              </div>
+
+              <div style="background: #FFFDF9; border: 1px dashed var(--border-soft); border-radius: var(--radius-sm); padding: 1rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                <strong>💡 Suasana Membaca:</strong> Suasana tenang saat sore hari, secangkir minuman hangat, dan alunan musik instrumental untuk menjaga fokus.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PHOTO MOMENTS GALLERY SECTION -->
+        <section class="section-wrapper" style="padding-bottom: 1rem;">
+          <div class="section-header">
+            <span class="badge-cute">Dokumentasi</span>
+            <h2 class="section-title">Dokumentasi & <span class="text-gradient">Potret Diri</span> 📸</h2>
+            <p class="section-subtitle">
+              Potret visual perjalanan belajar dan momen apresiasi diri.
+            </p>
+          </div>
+
+          <div class="duo-card-grid" style="max-width: 800px; margin: 0 auto;">
+            <!-- Card 1: Membawa Bunga (Signature Illustration) -->
+            <div class="polaroid-frame" style="transform: rotate(-1.5deg); margin: 0 auto;">
+              <div class="washi-tape"></div>
+              <div class="polaroid-img-wrapper" style="aspect-ratio: 3 / 4;">
+                <img src="assets/images/caca-flowers.jpg" alt="Foto Caca Membawa Bunga" class="polaroid-img">
+              </div>
+              <p class="polaroid-caption">Caca — Buket Bunga</p>
+            </div>
+
+            <!-- Card 2: Momen Wisuda / Kebaya -->
+            <div class="polaroid-frame" style="transform: rotate(1.5deg); margin: 0 auto;">
+              <div class="washi-tape" style="background: rgba(254, 217, 183, 0.85); border-color: rgba(244, 162, 97, 0.6);"></div>
+              <div class="polaroid-img-wrapper" style="aspect-ratio: 3 / 4;">
+                <img src="assets/images/caca-kebaya.jpg" alt="Foto Caca Mengenakan Kebaya Anggun" class="polaroid-img">
+              </div>
+              <p class="polaroid-caption">Dokumentasi Kebaya</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA TO CONTACT -->
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="kontak.html" class="btn btn-primary">
+            <span>Terhubung atau Diskusi Buku</span> 💌
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="brand-logo">
+        <span class="brand-icon-box">🌷</span>
+        <span>Wanderelle</span>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil Diri</a></li>
+        <li><a href="kontak.html">Kontak Person</a></li>
+        <li><a href="https://instagram.com/shazchiv" target="_blank" rel="noopener">Instagram (@shazchiv)</a></li>
+      </ul>
+      <p class="footer-credit">
+        Wanderelle • Jurnal Pribadi Caca — SMK Telkom Malang
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

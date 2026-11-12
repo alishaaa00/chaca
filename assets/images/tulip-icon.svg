@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <path d="M 32 60 Q 31 45 32 32" stroke="#52B788" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 32 46 Q 22 40 24 32 Q 31 38 32 44" fill="#74C69D"/>
+  <path d="M 32 48 Q 42 42 40 34 Q 33 40 32 46" fill="#74C69D"/>
+  <!-- Tulip Bloom -->
+  <path d="M 32 8 C 22 8 16 22 22 34 C 26 42 38 42 42 34 C 48 22 42 8 32 8 Z" fill="#E5566E"/>
+  <path d="M 32 38 C 18 38 12 25 18 14 C 22 7 30 18 31 38 Z" fill="#FF758F"/>
+  <path d="M 32 38 C 46 38 52 25 46 14 C 42 7 34 18 33 38 Z" fill="#FF758F"/>
+  <path d="M 32 40 C 23 40 22 20 28 11 C 30 8 34 8 36 11 C 42 20 41 40 32 40 Z" fill="#FFAAA6"/>
+</svg>
